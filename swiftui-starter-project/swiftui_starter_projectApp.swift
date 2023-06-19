@@ -2,7 +2,7 @@
 //  swiftui_starter_projectApp.swift
 //  swiftui-starter-project
 //
-//  Created by Deboleena on 14/06/23.
+//  Created by Suman Nandi on 14/06/23.
 //
 
 import SwiftUI
