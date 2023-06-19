@@ -1,0 +1,120 @@
+
+{
+    "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+    "name": "Shopping",
+    "items": [
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A01",
+            "name": "Game Controller",
+            "price": 75,
+            "categories": "Gaming",
+            "deal": ["New Arrival"],
+            "thumbnail": "gamecontroller"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A02",
+            "name": "Bicycle",
+            "price": 500,
+            "categories": "Transportation",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "bicycle"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A03",
+            "name": "Scotter",
+            "price": 350,
+            "categories": "Transportation",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "scooter"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A04",
+            "name": "Tennis Racket",
+            "price": 80,
+            "categories": "Sports",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "soccerball"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A05",
+            "name": "Cricket Ball",
+            "price": 40,
+            "categories": "Sports",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "cricket.ball"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A06",
+            "name": "Football",
+            "price": 25,
+            "categories": "Sports",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "football"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A07",
+            "name": "Gym Bag",
+            "price": 80,
+            "categories": "Fitness",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "gym.bag"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A08",
+            "name": "Sofa",
+            "price": 900,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "sofa"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A09",
+            "name": "Chair",
+            "price": 70,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "chair"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A10",
+            "name": "Dishwasher",
+            "price": 1500,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "dishwasher"
+        }
+        ,
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A11",
+            "name": "Stove",
+            "price": 1000,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "stove"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A12",
+            "name": "Microwave",
+            "price": 380,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "microwave"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A13",
+            "name": "Bed",
+            "price": 980,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "bed.double"
+        },
+        {
+            "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A14",
+            "name": "Frying Pan",
+            "price": 20,
+            "categories": "Home",
+            "deal": ["Deal", "Price Reduced"],
+            "thumbnail": "frying.pan"
+        }
+    ]
+}
