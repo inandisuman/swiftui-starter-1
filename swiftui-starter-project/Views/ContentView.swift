@@ -12,6 +12,7 @@ struct ContentView: View {
     let menu = Bundle.main.decode(from: "Menus")
     
     @EnvironmentObject var order: Order
+    @State private var searchedText = ""
     
     var body: some View {
         NavigationView {
@@ -19,7 +20,7 @@ struct ContentView: View {
                 Section(header: Text(menu.name)
                     .font(.headline)
                     .fontWeight(.bold)) {
-                        ForEach(menu.items) { item in
+                        ForEach(filteredItems) { item in
                             NavigationLink {
                                 ItemDetailsView(item: item)
                             } label: {
@@ -30,6 +31,15 @@ struct ContentView: View {
             }
             .navigationTitle("Menu")
             .listStyle(.insetGrouped)
+            .searchable(text: $searchedText, prompt: "Search item")
+        }
+    }
+    
+    var filteredItems: [MenuItem] {
+        if searchedText.isEmpty {
+            return menu.items
+        } else {
+            return menu.items.filter { $0.name.localizedCaseInsensitiveContains(searchedText) }
         }
     }
 }
